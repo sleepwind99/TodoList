@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+
+    <script defer src="./main.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="./main.css">
+
+
+    <!-- OG Protocal -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Todo">
+    <meta property="og:title" content="Todo list">
+    <meta property="og:description" content="Todo list를 통해 할일을 정리해보세요!">
+    <meta property="og:image" content="https://metalop.com/ToDo-List-Pro/images/TODO-List-icon-small.png">
+    <meta property="og:url" content="/todo">
+    <!-- Twitter Card -->
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:site" content="Todo" />
+    <meta property="twitter:title" content="Todo list" />
+    <meta property="twitter:description" content="Todo list를 통해 할일을 정리해보세요!" />
+    <meta property="twitter:image" content="https://metalop.com/ToDo-List-Pro/images/TODO-List-icon-small.png" />
+    <meta property="twitter:url" content="/todo" />
+
+    <!-- Google API -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- font rule -->
+    <!-- font-family: 'Nanum Gothic', sans-serif; -->
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1>My To Do List</h1>
+            <div class="inner">
+                <input id="myInput" type="text" placeholder="Things to do...">
+                <span class="material-icons">add_box</span>
+            </div>
+        </div> 
+    </header>
+
+    <section class="Todo">
+        <div class="inner">
+            <ul class="list"><li>this<span class="material-icons">clear</span></li></ul>
+        </div>
+    </section>
+</body>
+
+</html>
