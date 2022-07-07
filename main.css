@@ -2,6 +2,10 @@ body{
     background-color: whitesmoke;
 }
 
+a{
+    text-decoration: none;
+}
+
 header{
     position: fixed;
     top: 0;
@@ -72,6 +76,7 @@ header .title .inner .material-icons:hover{
 
 .Todo .inner ul{
     background-color: whitesmoke;
+    padding-bottom: 20px;
 }
 
 .Todo .inner ul li{
